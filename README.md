@@ -14,7 +14,9 @@ This project aims to detect STOP signs using a deep learning-based object detect
 - Learning rate: 0.01  
 
 ## Testing
-The model was tested on a dataset containing 5 STOP sign images.
+The model was tested on the stop sign dataset. The results were saved in the directory:
+
+runs/detect/stop_sign_test_output/
 
 ```bash
 !python detect.py \
